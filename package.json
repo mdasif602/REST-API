@@ -1,0 +1,24 @@
+{
+  "name": "stage2_hnxs",
+  "version": "1.0.0",
+  "description": "This is a stage 2 task of HNXs Internship",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdasif602/Stage2_HNGx.git"
+  },
+  "author": "Asif",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mdasif602/Stage2_HNGx/issues"
+  },
+  "homepage": "https://github.com/mdasif602/Stage2_HNGx#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "mongoose": "^7.5.1"
+  }
+}
