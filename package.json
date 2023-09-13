@@ -4,6 +4,7 @@
   "description": "This is a stage 2 task of HNXs Internship",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
