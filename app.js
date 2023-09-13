@@ -1,6 +1,6 @@
 const express = require('express');
 const mongoose = require('mongoose');
-const url = 'mongodb://localhost/perdb'
+const url = 'mongodb+srv://asif:mypassword@atlascluster.fzp8upf.mongodb.net/crud?retryWrites=true&w=majority'
 const app = express();
 
 mongoose.connect(url, {useNewUrlParser: true})
@@ -17,7 +17,7 @@ const personRouter = require('./routes/persons')
 
 app.use('/api', personRouter)
 
-const PORT = 8080;
+const PORT = process.env.PORT || 8080;
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
