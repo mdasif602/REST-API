@@ -2,9 +2,13 @@
 
 This is a REST API which can perform CRUD operations
 An API with endpoints for:
+
 CREATE: Adding a new person.  =>/api
+
 READ: Fetching details of a person.  => /api/user_id
+
 UPDATE: Modifying details of an existing person => /api/user_id
+
 DELETE: Removing a person => /api/user_id
 
 LINK on which you can access this API- https://hnx-stage2.onrender.com/api
