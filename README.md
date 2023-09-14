@@ -19,14 +19,16 @@ First Endpoints - GET ALL DATA
 
 LINK - https://hnx-stage2.onrender.com/api
 
-Paste the above link in POSTMAN with get opeartion it will give a json file of all the 
+Paste the above link in POSTMAN with get opeartion it will give a json file of all the
+
 data currently present in database
 
 Second Endpoints - GET a specific DATA with userID
 
 LINK - https://hnx-stage2.onrender.com/api/userID
 
-Paste the above link in POSTMAN with get opeartion it will give a json file of a particular 
+Paste the above link in POSTMAN with get opeartion it will give a json file of a particular
+
 data currently present in database
 
 Third Endpoints - Post a  DATA
@@ -34,14 +36,21 @@ Third Endpoints - Post a  DATA
 LINK - https://hnx-stage2.onrender.com/api
 
 For this we have to provide data in json file to do this follow the below steps
+
 -In the POSTMAN select POST method
+
 -Then go in body available in below bar
+
 - select raw and select json file
+- 
 - write inputed data below in format
+- 
   {
     "name": "User Name"
-  } 
+  }
+  
 then send the request and you are done
+
 And we post a new name in database
 
 
